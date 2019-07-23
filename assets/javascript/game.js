@@ -25,21 +25,25 @@ function newGame() {
     //Unbind removes previous game clicks from memory
     $("#ruby").unbind().on("click",function() {
         currentScore = currentScore + ruby
+        $("audio#clink")[0].play();
         clicks++
     })
 
     $("#emerald").unbind().click(function() {
         currentScore = currentScore + emerald
+        $("audio#clink")[1].play();
         clicks++
     })
 
     $("#sapphire").unbind().on("click",function() {
         currentScore = currentScore + sapphire
+        $("audio#clink")[2].play();
         clicks++
     })
 
     $("#onyx").unbind().on("click",function() {
         currentScore = currentScore + onyx
+        $("audio#clink")[3].play();
         clicks++
     })
 
