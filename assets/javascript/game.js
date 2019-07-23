@@ -8,7 +8,7 @@ var onyx = 0;
 var sapphire = 0;
 var clicks=0
 
-
+$(document).ready(function(){
 function newGame() {
     currentScore = 0;
     clicks=0
@@ -56,7 +56,7 @@ function newGame() {
             // You win message here
             goal = Math.floor((Math.random()*101)+19)
             $("#goal").text(goal);
-            $("#scoreMessage").text("You won in "+clicks+" clicks! Can you do better? There is a new goal if you wish to press your luck.");
+            $("#scoreMessage").text("You won in "+clicks+" clicks! Can you do better? Check the new goal.");
             $("#score").text("");
             $("#wins").text(wins)
             newGame()
@@ -76,3 +76,4 @@ function newGame() {
     
 }
 newGame();
+})
