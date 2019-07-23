@@ -37,19 +37,39 @@ header{
 #titleFont{
     font-size: 96px;
     padding: 0 15px 0;
-    font-family: FortuneTeller
+    font-family: FortuneTeller;
+    color: rgb(255, 61, 61);
 
 }
-#gameFont{
-    font-size: 64px;
+.gameFont{
+    font-size: 0px;
+    padding:0;
+    margin:auto 0;
 
 }
+.gameColor{
+    font-size:58px;
+}
+.gameYellow{
+    color: rgb(196, 160, 0)
+}
+.gameRed{
+    color: rgba(252, 49, 49, 0.76)
+}
+.gameBlue{
+    color: rgba(108, 108, 253, 0.555)
+}
+.gameGreen{
+    color: rgb(9, 212, 9)
+}
+
 .allGame{
     max-width:65%;
     position: relative;
     margin: auto;
     min-height: 150px;
     margin-top: 20px;
+    color: #aaa
 }
 .counts{
     width: 33.333%;
@@ -62,7 +82,8 @@ header{
     position: absolute;
     top:0;
     left:33.333%;
-    font-size: 22px;
+    font-size: 32px;
+    /* font-family: 'Times New Roman', Times, serif */
 }
 
 .crystals{
