@@ -9,7 +9,7 @@
 body{
     background-image: url('../images/background.jpg');
     color: #ddd;
-    text-shadow: 3px 3px #000;
+    text-shadow: 1px 1px #999;
     margin: auto;
     font-family: myGameFont;
     font-size: 30px;
@@ -19,6 +19,7 @@ header{
     margin: auto;
     font-size: 84px;
     text-align: center;
+    text-shadow: none;
 
 }
 #headingDiv{
@@ -39,6 +40,7 @@ header{
     font-family: FortuneTeller;
     color: rgb(255, 61, 61);
 
+
 }
 .gameFont{
     font-size: 0px;
@@ -50,16 +52,16 @@ header{
     font-size:64px;
 }
 .gameYellow{
-    color: rgb(196, 160, 0)
+    color: rgb(196, 160, 0);
 }
 .gameRed{
-    color: rgba(252, 49, 49, 0.76)
+    color: rgba(252, 49, 49, 0.76);
 }
 .gameBlue{
-    color: rgba(108, 108, 253, 0.555)
+    color: rgba(108, 108, 253, 0.555);
 }
 .gameGreen{
-    color: rgb(9, 212, 9)
+    color: rgb(9, 212, 9);
 }
 
 .allGame{
