@@ -19,17 +19,28 @@
             </div>
 
         </header>
-        <div class=gameText>Goal: <span id="goal">0</span></div>
-        <div>
-            Rules: Match the score above by clicking on the crystals. Each crystal will add a certain amount to your overall score. If you are able to match the score, Madam Rose
-            predicts great luck in your future. But beware, even Madam rose cannot protect you from the bad luck if you overshoot the score and lose the round!
-        </div>
-        <div class="gameText" id="scoreMessage">Current Score: <span id=score>0</span></div>
+        <div class="allGame">
+            <div class="counts">
+                <div class=gameText>Goal: <span id="goal">0</span></div>
+                <div class="gameText" id="scoreMessage">Current Score: <span id=score>0</span></div>
+                <div>Good Fortune: <span id="wins">0</span></div>
+                <div>Bad Omens: <span id="losses">0</span></div>
+            </div>
+            <div>
+                    <div id="rules">
+                        Rules: Reach the goal listed by clicking on the crystals. Each crystal will add a certain amount to your overall score. If you are able to match the score, Madam Rose
+                        predicts great luck in your future. But beware, even Madam Rose cannot protect you from the bad omens if you overshoot the score and lose the round!
+                    </div>
+            </div>
+
+        </div>   
+        <div class=container>
         <div class="crystals">
             <span><img src="assets/images/ruby.png" class=gem id=ruby></span>
             <span><img src="assets/images/emerald.png" class=gem id=emerald></span>
             <span><img src="assets/images/sapphire.png" class=gem id=sapphire></span>
             <span><img src="assets/images/onyx.png" class=gem id=onyx></span>
+        </div>
         </div>
         <script src="assets/javascript/game.js"></script>
     </body>

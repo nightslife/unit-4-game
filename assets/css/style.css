@@ -1,5 +1,19 @@
+@font-face{
+    font-family: FortuneTeller;
+    src: url("../fonts/carmencita/CARMENCI.TTF")
+}
+@font-face{
+    font-family: myGameFont;
+    src: url("../fonts/UNICORN_REGULAR.TTF")
+}
 body{
-    background-image: url('../images/background.jpg')
+    background-image: url('../images/background.jpg');
+    color: #ddd;
+    text-shadow: 3px 3px #000;
+    margin: auto;
+    font-family: myGameFont;
+    font-size: 30px;
+
 }
 header{
     margin: auto;
@@ -9,13 +23,47 @@ header{
 }
 #headingDiv{
     height: 150px;
+    margin-bottom: 20px;
+}
+.madam{
+    height: 150px;
+    width: 150px;
+
+}
+#madamReversed{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 #titleFont{
     font-size: 96px;
+    padding: 0 15px 0;
+    font-family: FortuneTeller
 
 }
-
-
+#gameFont{
+    font-size: 64px;
+    
+}
+.allGame{
+    max-width:65%;
+    position: relative;
+    margin: auto;
+    min-height: 150px;
+    margin-top: 20px;
+}
+.counts{
+    width: 33.333%;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+#rules{
+    width:66.666%;
+    position: absolute;
+    top:0;
+    left:33.333%;
+    font-size: 22px;
+}
 
 .crystals{
     margin:auto;
@@ -26,17 +74,9 @@ header{
     width: 150px;
     margin-left: 25px;
     margin-right: 25px;
+    padding-top: 10px;
 
 }
 .gem:hover{
     cursor: pointer;
-}
-.madam{
-    height: 150px;
-    width: 150px;
-
-}
-#madamReversed{
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
 }
