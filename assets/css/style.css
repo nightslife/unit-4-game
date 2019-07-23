@@ -28,7 +28,6 @@ header{
 .madam{
     height: 150px;
     width: 150px;
-
 }
 #madamReversed{
     -webkit-transform: scaleX(-1);
@@ -48,7 +47,7 @@ header{
 
 }
 .gameColor{
-    font-size:58px;
+    font-size:64px;
 }
 .gameYellow{
     color: rgb(196, 160, 0)
@@ -89,13 +88,13 @@ header{
 .crystals{
     margin:auto;
     text-align: center;
+    margin-top:7%;
 }
 .gem{
     height: 125px;
     width: 150px;
     margin-left: 25px;
     margin-right: 25px;
-    margin-top:5%;
     padding-top: 10px;
 
 }
