@@ -1,0 +1,42 @@
+body{
+    background-image: url('../images/background.jpg')
+}
+header{
+    margin: auto;
+    font-size: 84px;
+    text-align: center;
+
+}
+#headingDiv{
+    height: 150px;
+}
+#titleFont{
+    font-size: 96px;
+
+}
+
+
+
+.crystals{
+    margin:auto;
+    text-align: center;
+}
+.gem{
+    height: 125px;
+    width: 150px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+.gem:hover{
+    cursor: pointer;
+}
+.madam{
+    height: 150px;
+    width: 150px;
+
+}
+#madamReversed{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
