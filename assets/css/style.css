@@ -13,6 +13,7 @@ body{
     margin: auto;
     font-family: myGameFont;
     font-size: 30px;
+    height: 100%;
 
 }
 header{
@@ -70,7 +71,7 @@ header{
     margin: auto;
     min-height: 150px;
     margin-top: 20px;
-    color: #aaa
+    color: #aaa;
 }
 .counts{
     width: 33.333%;
@@ -84,6 +85,7 @@ header{
     top:0;
     left:33.333%;
     font-size: 32px;
+    height: fit-content;
     /* font-family: 'Times New Roman', Times, serif */
 }
 

@@ -8,7 +8,45 @@ var onyx = 0;
 var sapphire = 0;
 var clicks=0
 
+
+
 $(document).ready(function(){
+    function play1() {
+        var audio = document.getElementById('clink1');
+        if (audio.paused) {
+            audio.play();
+        }else{
+            audio.pause();
+            audio.currentTime = 0
+        }
+    }
+    function play2() {
+        var audio = document.getElementById('clink2');
+        if (audio.paused) {
+            audio.play();
+        }else{
+            audio.pause();
+            audio.currentTime = 0
+        }
+    }
+    function play3() {
+        var audio = document.getElementById('clink3');
+        if (audio.paused) {
+            audio.play();
+        }else{
+            audio.pause();
+            audio.currentTime = 0
+        }
+    }
+    function play4() {
+        var audio = document.getElementById('clink4');
+        if (audio.paused) {
+            audio.play();
+        }else{
+            audio.pause();
+            audio.currentTime = 0
+        }
+    }
 function newGame() {
     currentScore = 0;
     clicks=0
@@ -25,25 +63,27 @@ function newGame() {
     //Unbind removes previous game clicks from memory
     $("#ruby").unbind().on("click",function() {
         currentScore = currentScore + ruby
-        $("audio#clink")[0].play();
+        
+        play1()
+        // $("audio#clink")[0].play();
         clicks++
     })
 
     $("#emerald").unbind().click(function() {
         currentScore = currentScore + emerald
-        $("audio#clink")[1].play();
+        play2()
         clicks++
     })
 
     $("#sapphire").unbind().on("click",function() {
         currentScore = currentScore + sapphire
-        $("audio#clink")[2].play();
+        play3()
         clicks++
     })
 
     $("#onyx").unbind().on("click",function() {
         currentScore = currentScore + onyx
-        $("audio#clink")[3].play();
+        play4()
         clicks++
     })
 
