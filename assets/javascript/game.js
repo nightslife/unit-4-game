@@ -27,6 +27,7 @@ $(document).ready(function(){
         }else{
             audio.pause();
             audio.currentTime = 0
+            audio.play();
         }
     }
     function play3() {
